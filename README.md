@@ -161,6 +161,7 @@ sudo systemctl enable $JKL
 sudo systemctl restart $JKL
 
 echo ' setup is okey with skynodes  www.skynodes.org'
+echo ' Special Thanks Nodeist For Original Script'
 echo -e 'check your logs: \e[1m\e[32mjournalctl -fu canined -o cat\e[0m'
 echo -e "chech your sync: \e[1m\e[32mcurl -s localhost:${JKL_PORT}657/status | jq .result.sync_info\e[0m"
 
