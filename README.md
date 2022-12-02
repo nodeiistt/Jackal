@@ -137,7 +137,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/$JKL_FOLDER/config/con
 # res
 $JKL tendermint unsafe-reset-all --home $HOME/$JKL_FOLDER
 
-echo -e "\e[1m\e[32m4. SERVIS BASLATILIYOR... \e[0m" && sleep 1
+echo -e "\e[1m\e[32m4. Start  \e[0m" && sleep 1
 # create service
 sudo tee /etc/systemd/system/$JKL.service > /dev/null <<EOF
 [Unit]
