@@ -5,6 +5,7 @@ echo "www.skynodes.org"
 echo "www.githup.com/0xMrmoon"
 echo "Good Luck"
 echo "=================================================="
+sleep 5
 
 # Variables by skynodes
 JKL_WALLET=wallet
@@ -14,7 +15,7 @@ JKL_PORT=50
 JKL_FOLDER=.canine
 JKL_FOLDER2=canine-chain
 JKL_VER=v1.1.2-hotfix
-JKL_REPO=https://github.com/JackalLabs/canine-chain.git
+JKL_REPO=https://github.com/JackalLabs/canine-chain
 JKL_GENESIS=[https://raw.githubusercontent.com/JackalLabs/canine-mainnet-genesis/main/genesis/genesis.json](https://raw.githubusercontent.com/JackalLabs/jackal-chain-assets/main/testnet/genesis.json)
 JKL_ADDRBOOK=curl -Ls https://snapshots.kjnodes.com/jackal-testnet/addrbook.json > $HOME/.canine/config/addrbook.json
 JKL_MIN_GAS=0
